@@ -97,8 +97,8 @@ export default function OGCollectionLanding() {
             <Image
               src="/logo.jpeg"
               alt="OGCollection Logo"
-              width={54}
-              height={54}
+              width={66}
+              height={66}
               className="rounded-xl object-cover"
             />
             <p className="text-2xl font-bold tracking-tight">
@@ -138,7 +138,10 @@ export default function OGCollectionLanding() {
           transition={{ duration: 1 }}
           className="relative z-10 text-center text-white px-6 max-w-4xl"
         >
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight">
+          <h1 className="text-6xl md:text-8xl font-bold leading-tight tracking-tight">
+            A Project By<br /> Owais Garments
+          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
             Elevate Your Everyday Style
           </h1>
 
@@ -146,15 +149,6 @@ export default function OGCollectionLanding() {
             A destination for modern men who value style, presence, and quality.
           </p>
 
-          <div className="flex gap-4 justify-center mt-10 flex-wrap">
-            <button className="bg-white text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition shadow-xl">
-              View Collections
-            </button>
-
-            <button className="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-black transition">
-              Get Directions
-            </button>
-          </div>
 
           <p className="mt-6 text-sm text-gray-300 tracking-wide">
             No online orders — Exclusive in-store shopping experience
